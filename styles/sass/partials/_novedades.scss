@@ -22,24 +22,4 @@
         margin-top: 64px;
     }
 
-    .escucha-btn {
-        position: relative;
-        width: 90%;
-        height: 48px;
-        margin: auto;
-        top: -40px;
-        margin-bottom: 24px;
-        background-color: $btn-color;
-        border: none;
-
-        a {
-            text-decoration: none;
-            color: $font-primary;
-            font-family: 'IBM Plex Mono', monospace;
-            font-size: 16px;
-            letter-spacing: 0;
-            text-align: center;
-            line-height: 22px;
-        }
-    }
 }
