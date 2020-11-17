@@ -1,0 +1,34 @@
+.temas {
+    .temas-title {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        color: $font-primary;
+        letter-spacing: 0;
+        line-height: 42px;
+        width: 90%;
+        margin: auto;
+        margin-top: 48px;
+        margin-bottom: -12px;
+    }
+
+    .temas-icons {
+        display: flex;
+        flex-direction: column;
+        margin-top: 34px;
+
+        img {
+            margin-top: 49px;
+        }
+
+        p {
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            color: $font-primary;
+            letter-spacing: 0;
+            text-align: center;
+            margin-top: 13px;
+        }
+    }
+}

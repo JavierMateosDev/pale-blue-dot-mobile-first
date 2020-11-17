@@ -1,0 +1,25 @@
+footer {
+
+    .copyright-footer {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 14px;
+        color: $font-primary;
+        letter-spacing: 0;
+        line-height: 22px;
+        width: 90%;
+        margin: auto;
+        margin-top: 24px;
+        text-align: center;
+    }
+
+    .footer-logos {
+
+        ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 16px 45px 30px 45px;
+        }
+    }
+}

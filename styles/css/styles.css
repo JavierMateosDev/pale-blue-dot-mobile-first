@@ -1,0 +1,68 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.navbar-container {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 6.9%;
+}
+
+.bd-logo {
+    height: 36px;
+}
+
+.nav-link{
+    list-style-type: none;
+    display: inline;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-left: 20px;
+}
+.hello-title {
+    font-family: 'IBM Plex Sans';
+    font-weight: lighter;
+    font-size: 64px;
+    color: #060A24;
+    letter-spacing: 0;
+    margin-top: 120px;
+    margin-left: 200px;  
+}
+.title-paragraph {
+    font-family: 'IBMPlexMono', monospace;
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-left: 200px;
+    max-width: 628px;
+    max-height: 48px;
+}
+.conoce-button {
+    font-family: 'IBMPlexMono-Medium';
+    font-size: 18px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    background: #00F3BB;
+    border: none;
+    margin-left: 200px;
+}

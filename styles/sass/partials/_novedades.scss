@@ -1,0 +1,45 @@
+.novedades {
+    .blue-container {
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        height: 341px;
+        width: 100%;
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+        margin-top: 42px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .novedades-title {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        color: $font-secondary;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 42px;
+        width: 90%;
+        margin: auto;
+        margin-top: 64px;
+    }
+
+    .escucha-btn {
+        position: relative;
+        width: 90%;
+        height: 48px;
+        margin: auto;
+        top: -40px;
+        margin-bottom: 24px;
+        background-color: $btn-color;
+        border: none;
+
+        a {
+            text-decoration: none;
+            color: $font-primary;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 16px;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 22px;
+        }
+    }
+}
