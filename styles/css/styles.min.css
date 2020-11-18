@@ -54,6 +54,7 @@ header p.title-paragraph {
   height: 0;
   opacity: 0;
   background-color: #0000EC;
+  overflow: hidden;
 }
 
 .navbar-container .burguer-menu a {
@@ -89,12 +90,14 @@ input[type="checkbox"] {
   width: 40px;
   height: 32px;
   opacity: 0;
+  z-index: 2;
   position: absolute;
 }
 
 input[type="checkbox"]:checked ~ ul {
   opacity: 1;
   height: auto;
+  overflow: auto;
 }
 
 input[type="checkbox"]:checked ~ span {

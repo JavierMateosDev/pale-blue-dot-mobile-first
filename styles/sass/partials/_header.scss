@@ -59,6 +59,7 @@ header {
             height: 0;
             opacity: 0;
             background-color: $background-burguer;
+            overflow: hidden;
         }
 
         a {
@@ -96,13 +97,16 @@ input[type="checkbox"] {
     width: 40px;
     height: 32px;
     opacity: 0;
+    z-index: 2;
     position: absolute;
 }
 
 input[type="checkbox"]:checked ~ ul {
     opacity: 1;
     height: auto;
+    overflow: auto;
 }
+
 
 input[type="checkbox"]:checked ~ span {
     opacity: 1;
