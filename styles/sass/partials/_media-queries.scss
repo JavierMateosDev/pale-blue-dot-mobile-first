@@ -1,0 +1,207 @@
+@media (min-width: 768px) {
+    .donde-venimos {
+        display: flex;
+        flex-direction: row;
+
+        .donde-venimos-img {
+            display: flex;
+        }
+        
+        img {
+            display: flex;
+            position: relative;
+            width: 360px;
+            z-index: 99;
+            margin-top: -100px;
+    
+        }
+
+        .donde-venimos-text {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .invitadxs {
+
+        .img-container {
+            width: 100%;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+        }
+
+        img {
+            width: 45%;
+        }
+    }
+}
+@media (min-width: 1024px) {
+    .navbar-container {
+        width: 100%;
+        height: 80px;
+        padding: 10px 5%;
+        overflow: hidden;
+    
+        .bd-logo {
+            height: 36px;
+            float: left;
+            margin-top: 1%;
+        }
+
+        .desktop-menu {
+            display: inline-block;
+            width: 45%;
+            margin-top: 1%;
+
+            ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                list-style-type: none;
+            }
+
+            a {
+                font-family: 'IBM Plex Mono', monospace;
+                font-size: 16px;
+                letter-spacing: 0;
+                line-height: 28px;
+                text-decoration: none;
+                color: $font-primary;
+            }
+
+            a:hover {
+                color: $btn-color;
+                text-decoration: line-through;
+            }
+
+            a:active {
+                color: rgba(6,10,36,0.56);
+            }
+
+        }
+    
+        .burguer-menu {
+            display: none;
+        }
+    }
+
+    .header-btn {
+        .conoce-btn {
+            margin-left: 13.9%;
+        }
+    }
+    header {
+        .hello-title {
+            margin-left: 13.9%;
+        }
+        p.title-paragraph {
+            width: 43.6%;
+            margin-left: 13.9%;
+        }
+    }
+    .episodios {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    
+        iframe {
+            margin-top: 1.8%;
+            width: 40%;
+        }
+    }
+    .blue-shape {
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        z-index: -1;
+        width: 100%;
+        min-height: 800px;
+        height: 60%;
+        clip-path: polygon(0 2%, 100% 0%, 100% 98%, 0% 100%);
+    }
+    .invitadxs {
+
+        .img-container {
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+        }
+
+        img {
+            width: 33.3%;
+            height: 9.3%;
+        }
+    }
+    .temas {
+        .temas-title {
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 36px;
+            font-weight: 400;
+            color: $font-primary;
+            letter-spacing: 0;
+            line-height: 42px;
+            width: 90%;
+            margin: auto;
+            margin-top: 48px;
+            margin-bottom: -12px;
+        }
+    
+        .temas-icons {
+            display: flex;
+            flex-direction: row;
+            margin-top: 34px;
+    
+            img {
+                width: 7.2%;
+                height: 2.7%;
+                margin: auto;
+                margin-top: 49px;
+            }
+
+            .temas-list {
+                display: none;
+            }
+
+
+            p {
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-size: 24px;
+                font-weight: 600;
+                color: $font-primary;
+                letter-spacing: 0;
+                text-align: center;
+                margin-top: 13px;
+            }
+        }
+        .temas-list-desktop {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            p {
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-size: 24px;
+                font-weight: 600;
+                color: $font-primary;
+                letter-spacing: 0;
+                text-align: center;
+                margin-top: 13px;
+                width: 15%;
+            }
+        }
+
+    }
+    footer {
+
+        .copyright-footer{
+            margin-left: 7%;
+        }
+
+        .footer-logos {
+            justify-content: space-between;
+        }
+
+    }
+}

@@ -1,4 +1,8 @@
 .temas {
+    .temas-list-desktop {
+        display: none;
+    }
+
     .temas-title {
         font-family: 'IBM Plex Sans', sans-serif;
         font-size: 36px;
@@ -18,6 +22,8 @@
         margin-top: 34px;
 
         img {
+            width: 32.5%;
+            margin: auto;
             margin-top: 49px;
         }
 

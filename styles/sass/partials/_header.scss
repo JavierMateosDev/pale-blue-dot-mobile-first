@@ -35,6 +35,10 @@ header {
     }
 }
 
+.desktop-menu {
+    display: none;
+}
+
 .navbar-container {
     width: 100%;
     height: 50px;
@@ -61,6 +65,7 @@ header {
             opacity: 0;
             background-color: $background-burguer;
             overflow: hidden;
+            transition-duration: 300ms;
         }
 
         a {

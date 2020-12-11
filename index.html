@@ -16,23 +16,32 @@
     <header>
       <div class="navbar-container">
         <img class="bd-logo" src="./images/logo.svg" alt="Blue dot logo" />
-          <nav class="burguer-menu">
-            <input type="checkbox" id="checkbox">
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul>
-              <li><a href="#episodios">EPISODIOS</a></li>
-              <li><a href="#donde-venimos">NOSOTROS</a></li>
-              <li><a href="#invitadxs">ENTREVISTAS</a></li>
-              <li><a href="#temas">TÓPICOS</a></li>
-            </ul>
-          </nav>
+        <nav class="desktop-menu">
+          <ul>
+            <li><a href="#episodios">EPISODIOS</a></li>
+            <li><a href="#donde-venimos">NOSOTROS</a></li>
+            <li><a href="#invitadxs">ENTREVISTAS</a></li>
+            <li><a href="#temas">TÓPICOS</a></li>
+          </ul>
+        </nav>
+        <nav class="burguer-menu">
+          <input type="checkbox" id="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul>
+            <li><a href="#episodios">EPISODIOS</a></li>
+            <li><a href="#donde-venimos">NOSOTROS</a></li>
+            <li><a href="#invitadxs">ENTREVISTAS</a></li>
+            <li><a href="#temas">TÓPICOS</a></li>
+          </ul>
+        </nav>
       </div>
       <h1 class="hello-title">
         Hello <span class="world-scratch">world</span> pale blue dot<span
           class="blue-dot"
-          >.</span>
+          >.</span
+        >
       </h1>
       <div>
         <p class="title-paragraph">
@@ -47,7 +56,8 @@
       </div>
     </header>
     <main>
-      <div class="blue-shape"><br><br><br>
+      <div class="blue-shape">
+        <br /><br /><br />
         <section id="episodios" class="episodios">
           <h2 class="episodios-title">Episodios</h2>
           <iframe
@@ -75,7 +85,7 @@
             allow="encrypted-media"
           ></iframe>
           <iframe
-            src="https://open.spotify.com/embed-podcast/episode/0OQfaN8x188Tcdcnh51vmG"
+            src="https://open.spotify.com/embed-podcast/episode/7p9U9MQCCxW4YWWxSeQpVl"
             width="100%"
             height="232"
             frameborder="0"
@@ -85,12 +95,13 @@
         </section>
       </div>
       <section id="donde-venimos" class="donde-venimos">
-        <div>
+        <div class="donde-venimos-img">
           <img
             src="./images/phone.png"
             alt="The secret history of women in coding"
           />
         </div>
+        <div class="donde-venimos-text">
         <h2 class="donde-venimos-title">De dónde venimos</h2>
         <p class="donde-venimos-p1">
           Our posturings, our imagined self-importance, the delusion that we
@@ -102,6 +113,7 @@
           our obscurity, in all this vastness, there is no hint that help will
           come from elsewhere to save us from ourselves.
         </p>
+      </div>
       </section>
       <section id="invitadxs" class="invitadxs">
         <h2 class="invitadxs-title">Invitadas/os estelares</h2>
@@ -132,6 +144,12 @@
           <img src="./images/icon4.svg" alt="Seguridad informática" />
           <p class="temas-list">Seguridad informática</p>
         </div>
+        <div class="temas-list-desktop">
+          <p class="temas-list">Trabajo remoto</p>
+          <p class="temas-list">Repensando la programación</p>
+          <p class="temas-list">Bases del código</p>
+          <p class="temas-list">Seguridad informática</p>
+        </div>
       </section>
       <section class="novedades">
         <div class="blue-container">
@@ -146,11 +164,11 @@
       <p class="copyright-footer">© 2020— Hello blue pale dot</p>
       <div class="footer-logos">
         <ul>
-          <li class="fa fa-spotify"></li>
-          <li class="fa fa-instagram"></li>
-          <li class="fa fa-twitter"></li>
-          <li class="fa fa-facebook"></li>
-          <li class="fa fa-telegram"></li>
+          <a href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer"><li class="fa fa-spotify"></li></a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><li class="fa fa-instagram"></li></a>
+          <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer"><li class="fa fa-twitter"></li></a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><li class="fa fa-facebook"></li></a>
+          <a href="https://web.telegram.org/" target="_blank" rel="noopener noreferrer"><li class="fa fa-telegram"></li></a>
         </ul>
       </div>
     </footer>
