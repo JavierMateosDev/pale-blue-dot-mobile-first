@@ -297,8 +297,8 @@ input[type="checkbox"]:checked ~ span:nth-last-child(2) {
 }
 
 .invitadxs .img-container img {
-  min-width: 320px;
-  min-height: 243px;
+  width: 320px;
+  height: 4.5%;
 }
 
 .temas .temas-list-desktop {
@@ -495,7 +495,6 @@ footer .footer-logos a {
   }
   .invitadxs img {
     width: 33.3%;
-    height: 9.3%;
   }
   .temas .temas-title {
     font-family: 'IBM Plex Sans', sans-serif;
