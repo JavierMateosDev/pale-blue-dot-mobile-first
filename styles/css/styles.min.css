@@ -243,6 +243,9 @@ input[type="checkbox"]:checked ~ span:nth-last-child(2) {
 
 .episodios iframe {
   width: 90%;
+  height: 232px;
+  border: 0px;
+  background-color: transparent;
 }
 
 .donde-venimos {
@@ -411,6 +414,9 @@ footer .footer-logos a {
 }
 
 @media (min-width: 768px) {
+  .episodios iframe {
+    width: 90%;
+  }
   .donde-venimos {
     display: flex;
     flex-direction: row;

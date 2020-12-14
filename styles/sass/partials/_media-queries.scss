@@ -1,4 +1,9 @@
 @media (min-width: 768px) {
+    .episodios {
+        iframe {
+            width: 90%;
+        }
+    }
     .donde-venimos {
         display: flex;
         flex-direction: row;
