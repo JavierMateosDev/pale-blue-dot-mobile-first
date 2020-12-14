@@ -125,16 +125,19 @@ input[type="checkbox"]:checked ~ span:nth-last-child(2) {
 }
 
 .header-btn .conoce-btn {
+  cursor: pointer;
   width: 288px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 48px;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-size: 16px;
   color: #060A24;
   letter-spacing: 0;
   text-align: center;
+  text-decoration: none;
+  text-decoration-style: none;
   line-height: 22px;
   margin: auto;
   margin-bottom: 24px;
@@ -147,7 +150,7 @@ input[type="checkbox"]:checked ~ span:nth-last-child(2) {
   display: block;
   text-decoration: none;
   color: #060A24;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-size: 16px;
   letter-spacing: 0;
   text-align: center;
@@ -155,14 +158,22 @@ input[type="checkbox"]:checked ~ span:nth-last-child(2) {
 }
 
 .header-btn .conoce-btn:hover {
-  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+  background-image: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
 }
 
 .header-btn .conoce-btn:hover a {
   color: #FFFFFF;
 }
 
-.novedades .escucha-btn {
+.novedades .novedades-btn {
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  text-decoration-style: none;
+  text-align: center;
+}
+
+.novedades .novedades-btn .escucha-btn {
   display: block;
   position: relative;
   width: 288px;
@@ -173,23 +184,33 @@ input[type="checkbox"]:checked ~ span:nth-last-child(2) {
   background-color: #00F3BB;
   border: none;
   transition: 1s ease-in-out;
-}
-
-.novedades .escucha-btn a {
   text-decoration: none;
   color: #060A24;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-size: 16px;
   letter-spacing: 0;
   text-align: center;
   line-height: 22px;
 }
 
-.novedades .escucha-btn:hover {
-  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+.novedades .novedades-btn .escucha-btn a {
+  display: block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #060A24;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 22px;
+  padding-top: 10px;
 }
 
-.novedades .escucha-btn:hover a {
+.novedades .novedades-btn .escucha-btn:hover {
+  background-image: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
+}
+
+.novedades .novedades-btn .escucha-btn:hover a {
   color: #FFFFFF;
 }
 
