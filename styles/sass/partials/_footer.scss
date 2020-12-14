@@ -20,10 +20,12 @@ footer {
         justify-content: space-between;
         align-items: center;
         margin: 16px 45px 30px 45px;
+        list-style-type: none;
         }
 
         a {
-            color: black;
+            color: $font-primary;
+            text-decoration: none;
         }
     }
 }

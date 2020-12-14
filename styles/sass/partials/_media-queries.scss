@@ -193,14 +193,96 @@
 
     }
     footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
 
         .copyright-footer{
-            margin-left: 7%;
+            margin-top: 0.9%;
+            width: 269px;
+            margin-left: 100px;
         }
 
         .footer-logos {
-            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            width: 269px;
+            margin-right: 100px;
+            justify-content: space-around;
         }
 
     }
+}
+
+@media (min-width: 1440px) {
+    .invitadxs {
+        
+        .invitadxs-title{
+            margin-left: 200px;
+        }
+        .img-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-top: 14px;
+    
+            img {
+                width: 33.3%;
+                height: 9.3%;
+            }
+        }
+    }
+    .donde-venimos {
+        margin-left: 200px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        img {
+            position: relative;
+            width: 360px;
+            z-index: 99;
+            margin-top: -100px;    
+        }
+    
+        .donde-venimos-text {
+            display: flex;
+            flex-direction: column;
+            width: 32.2%;
+            margin-left: 100px;
+        }
+    
+        .donde-venimos-title {
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 36px;
+            font-weight: 400;
+            color: $font-primary;
+            letter-spacing: 0;
+            line-height: 42px;
+            width: 90%;
+            margin: auto;
+        }
+        .donde-venimos-p1 {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 14px;
+            color: $font-primary;
+            letter-spacing: 0;
+            line-height: 22px;
+            width: 90%;
+            margin: auto;
+            margin-top: 10px;
+        }
+        .donde-venimos-p2 {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 14px;
+            color: $font-primary;
+            letter-spacing: 0;
+            line-height: 22px;
+            width: 90%;
+            margin: auto;
+            margin-top: 20px;
+        }
+    }
+
 }

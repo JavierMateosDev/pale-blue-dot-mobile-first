@@ -402,10 +402,12 @@ footer .footer-logos ul {
   justify-content: space-between;
   align-items: center;
   margin: 16px 45px 30px 45px;
+  list-style-type: none;
 }
 
 footer .footer-logos a {
-  color: black;
+  color: #060A24;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -567,11 +569,87 @@ footer .footer-logos a {
     margin-top: 13px;
     width: 15%;
   }
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
   footer .copyright-footer {
-    margin-left: 7%;
+    margin-top: 0.9%;
+    width: 269px;
+    margin-left: 100px;
   }
   footer .footer-logos {
-    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 269px;
+    margin-right: 100px;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 1440px) {
+  .invitadxs .invitadxs-title {
+    margin-left: 200px;
+  }
+  .invitadxs .img-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 14px;
+  }
+  .invitadxs .img-container img {
+    width: 33.3%;
+    height: 9.3%;
+  }
+  .donde-venimos {
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .donde-venimos img {
+    position: relative;
+    width: 360px;
+    z-index: 99;
+    margin-top: -100px;
+  }
+  .donde-venimos .donde-venimos-text {
+    display: flex;
+    flex-direction: column;
+    width: 32.2%;
+    margin-left: 100px;
+  }
+  .donde-venimos .donde-venimos-title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px;
+    width: 90%;
+    margin: auto;
+  }
+  .donde-venimos .donde-venimos-p1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .donde-venimos .donde-venimos-p2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
   }
 }
 
